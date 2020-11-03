@@ -10,7 +10,7 @@ install by run `npm install` and start development by running `npm start` and it
 
 Run `npm run build` to build the app, it should generate `main.bundle.js` this file should inject the project into the main app, details
 
-## How this micro project works (main.bundle.js)
+# How this micro project works (main.bundle.js)
 
 Each micro project should have unique ID.
 
