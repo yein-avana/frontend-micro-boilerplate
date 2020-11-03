@@ -22,6 +22,12 @@ ReactDOM.render(<App />, document.getElementById("agent-stockist-root"));
 
 we need to discuss together and decide the ID example: `agent-stockist-root`
 
+in development mode it will refer to this [file](./public/index.js) that contains
+
+```
+<div id="agent-stockist-root"></div>
+```
+
 ## mockup project to preview micro project in action
 
 you can install the main app mockup in this [link](https://github.com/yein-avana/frontend-micro-mockup "Frontend Micro Mockup")
@@ -30,4 +36,8 @@ you can install the main app mockup in this [link](https://github.com/yein-avana
 
 All we need just static js with 1 or more chunk file (if the micro apps still had large filesize) like `main.bundle.js`, deployed and accesible by public link somewhere like, example:`https://outsource.avana.asia/agent-ripple-stockist/main.bundle.js`
 
-and it will imported using html script tag `<script src='https://outsource.avana.asia/agent-ripple-stockist/main.bundle.js' type='text/javascript'></script>`
+and it will imported using html script tag
+
+```
+<script src='https://outsource.avana.asia/agent-ripple-stockist/main.bundle.js' type='text/javascript'></script>
+```
