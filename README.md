@@ -1,12 +1,12 @@
-# MICRO FRONTEND BOILERPLATE
+# Micro Frontend Boilerplate
 
 Simple boilerplate to boost development, this project run with node environment using reactJS library
 
-# INSTALLATION
+# Installation and development
 
 install by run `npm install` and start development by running `npm start` and it should open browser to `http://localhost:8080`
 
-# BUILD
+# Build
 
 Run `npm run build` to build the app, it should generate `main.bundle.js` this file should inject the project into the main app, details
 
@@ -28,16 +28,21 @@ in development mode it will refer to this [file](./public/index.js) that contain
 <div id="agent-stockist-root"></div>
 ```
 
-## mockup project to preview micro project in action
+Project should render to that div#id `div#agent-stockist-root`
+
+## Mockup project to preview micro project in action
 
 you can install the main app mockup in this [link](https://github.com/yein-avana/frontend-micro-mockup "Frontend Micro Mockup")
 
-## deployment
+## Deployment
 
 All we need just static js with 1 or more chunk file (if the micro apps still had large filesize) like `main.bundle.js`, deployed and accesible by public link somewhere like, example:`https://outsource.avana.asia/agent-ripple-stockist/main.bundle.js`
 
 and it will imported using html script tag
 
 ```
-<script src='https://outsource.avana.asia/agent-ripple-stockist/main.bundle.js' type='text/javascript'></script>
+<script
+    src='https://outsource.avana.asia/agent-ripple-stockist/main.bundle.js'
+    type='text/javascript'>
+</script>
 ```
